@@ -1,28 +1,12 @@
-import React from "react";
-
 import "./Banner.scss";
-// import mainimg from "../../../assets/rbu.jpeg";
-
+import BannerImg from "../../../assets/rbu.jpeg";
 const Banner = () => {
-    return (
-        <div className="hero-banner">
-            <div className="content">
-                {/* <div className="text-content">
-                    <h1>SALES</h1>
-                    <p>
-                        Convallis interdum purus adipiscing dis parturient
-                        posuere ac a quam a eleifend montes parturient posuere
-                        curae tempor
-                    </p>
-                    <div className="ctas">
-                        <div className="banner-cta">Read More</div>
-                        <div className="banner-cta v2">Shop Now</div>
-                    </div>
-                </div> */}
-                {/* <img className="banner-img" src={mainimg} /> */}
-            </div>
-        </div>
-    );
+  return (
+    <div className=" hero-banner">
+      {/* <img className="banner-img" src={BannerImg} alt="" /> */}
+      <img src={BannerImg} alt="RBU IMG" class="responsive" width="600" height="400"></img>
+    </div>
+  );
 };
 
 export default Banner;
