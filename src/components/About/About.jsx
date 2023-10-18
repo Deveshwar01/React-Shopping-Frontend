@@ -73,7 +73,7 @@ export const About = () => {
                      <img src={divyaimg} alt="" />
                   </div>
                   <h2>DIVYAJOT</h2>
-                  <h4>Product-Designer</h4>
+                  <h4>Product-Designer & Technical Lead </h4>
                   <p>I'm a third-year student pursuing a B.Tech in Computer Science and Engineering at Rayat Bahra University.A dedicated product designer who's passionate about turning ideas into functional and appealing creations.</p>
                </div>
 
